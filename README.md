@@ -1,5 +1,5 @@
 # 8Df VR Experience Co-Ideation Assistant  
-Human–AI Collaboration for VR Experience Design
+Human–AI Collaboration for VR Experience Design grounded in VR theories
 
 ================================================================================
 - 📄 Dimensionality Framework (8Df) Paper:  
@@ -13,7 +13,7 @@ Human–AI Collaboration for VR Experience Design
 
 
 ## 1. Overview
-The **8Df Co-Ideation Assistant** is a human–AI collaborative system that guides users through designing VR experiences using the **Dimensionality Framework (8Df)**—a theoretical model covering eight experiential dimensions:
+The **8Df Co-Ideation Assistant** is a human–AI collaborative system that guides users through designing VR experiences using the **Dimensionality Framework (8Df)**—a theoretical model covering eight VR experiential dimensions:
 
 - Spatial  
 - Sensory  
@@ -37,10 +37,11 @@ This repository provides the full prompt architecture, workflow logic, and desig
 - To reduce fragmentation in ideation by guiding designers through **eight interdependent dimensions**
 
 ### **Goals**
-- Scaffold creativity with the Dimensionality Framework  
-- Make VR design accessible to non-experts  
+- Support creativity with the Dimensionality Framework  
+- Make VR design accessible to non-experts
 - Provide a consistent workflow across AI models  
-- Produce actionable, implementation-ready output  
+- Produce actionable, implementation-ready output
+- Propose visual diagrams and storyboards (depending on modality of the LLM)
 
 
 ================================================================================
@@ -49,7 +50,7 @@ This repository provides the full prompt architecture, workflow logic, and desig
 ### **Core Concept**
 The assistant functions as:
 - A **Socratic VR design partner**  
-- A **mentor enforcing the 8Df framework**  
+- A **expert mentor enforcing the 8Df framework**  
 - A **dialogic generator of scenes, modulations, and effects**  
 - A **workflow manager** ensuring human-in-the-loop checkpoints  
 
@@ -67,13 +68,13 @@ Includes:
 ================================================================================
 ## 4. How to Use
 
-### **A. ChatGPT**
-1. Go to GPT Builder  
-2. Upload `bot-brain.md` as system prompt  
+### **A. ChatGPT or Gemini**
+1. Go to GPT Builder/Gemini Gems
+2. Upload `VR8Df_bot.md` as system prompt  
 3. Save as a custom GPT  
 
 ### **B. Gemini / Claude / DeepSeek**
-- Paste the contents of `bot-brain.md` into the system prompt area  
+- Paste the contents of `VR8Df_bot.md` into the system prompt area  
 - Recommended: Use “Project Mode” for persistent memory  
 - Supports long-context workflows  
 
@@ -86,20 +87,22 @@ Includes:
 ## 5. 8Df Co-Ideation Workflow
 
 ### **Stage 0 — System Welcome**
-- Introduces 8Df  
+- Introduces the 8 Dimensional Framework (8Df)
 - Provides citation if asked  
 - Establishes purpose and expectations  
 
 ---
 
 ### **Step 1 — Define VR Experience Goal**
-The user specifies the primary intent:
+The user specifies the primary intent (provide more details):
 - Education  
 - Training  
 - Empathy  
-- Culture  
+- Culture
+- Heritage
 - Entertainment  
-- Research  
+- Research
+- and more!  
 
 ---
 
