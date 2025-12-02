@@ -2,9 +2,11 @@
 Human–AI Collaboration for VR Experience Design
 
 ================================================================================
-
-🔗 **ChatGPT Live Demo:** *[[insert link](https://chatgpt.com/g/g-68e37b8b9fc48191831d1b7259437899-vr-dimensionality-framework-8df)]*  
-🔗 **Gemini Live Demo:** *[[insert link](https://gemini.google.com/gem/1AlAkOAy8J22ervxGA4v999riudajEZdP?usp=sharing)]*  
+- 📄 Dimensionality Framework (8Df) Paper:  
+  *[insert link]*
+  
+🔗 **ChatGPT Live Demo:** *[[ChatGPT](https://chatgpt.com/g/g-68e37b8b9fc48191831d1b7259437899-vr-dimensionality-framework-8df)]*  
+🔗 **Gemini Live Demo:** *[[Gemini](https://gemini.google.com/gem/1AlAkOAy8J22ervxGA4v999riudajEZdP?usp=sharing)]*  
 🧠 **bot implementation for DeepSeek and other LLMs:** [`VR8Df_bot.md`](VR8Df_bot.md)
 
 ================================================================================
@@ -168,10 +170,12 @@ Output includes:
 ================================================================================
 ## 7. Resources
 
-- 🧠 Bot Brain Prompt:  
-  [`prompts/bot-brain.md`](prompts/bot-brain.md)
+🔗 **ChatGPT Live Demo:** *[[ChatGPT](https://chatgpt.com/g/g-68e37b8b9fc48191831d1b7259437899-vr-dimensionality-framework-8df)]*  
+🔗 **Gemini Live Demo:** *[[Gemini](https://gemini.google.com/gem/1AlAkOAy8J22ervxGA4v999riudajEZdP?usp=sharing)]*  
+🧠 **bot implementation for DeepSeek and other LLMs:** [`VR8Df_bot.md`](VR8Df_bot.md)
 
 - 📄 Dimensionality Framework (8Df) Paper:  
   *[insert link]*
 
-- 📊 LLM Comparison Study (Cha
+- 📊 LLM Comparison Study (ChatGPT / Gemini / DeepSeek):  
+  *[insert link]*
