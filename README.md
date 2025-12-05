@@ -9,7 +9,7 @@ Human–AI Collaboration for VR Experience Design grounded in VR theories
 - 📊 LLM Comparison Study (ChatGPT / Gemini / DeepSeek):  
   *[Coming soon]*
 
-- In the Chatbot prompt, type 'start' to start using:
+#### In the Chatbot prompt, type 'start' to start using:
 🔗 **ChatGPT Live Demo:** *[[ChatGPT](https://chatgpt.com/g/g-68e37b8b9fc48191831d1b7259437899-vr-dimensionality-framework-8df)]*
 🔗 **Gemini Live Demo:** *[[Gemini](https://gemini.google.com/gem/1AlAkOAy8J22ervxGA4v999riudajEZdP?usp=sharing)]*
 🧠 **bot implementation for DeepSeek and other LLMs:** [`VR8Df_bot.md`](VR8Df_bot.md)
