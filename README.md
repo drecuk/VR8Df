@@ -58,8 +58,8 @@ The assistant functions as:
 - A **dialogic generator of scenes, modulations, and effects**  
 - A **workflow manager** ensuring human-in-the-loop checkpoints  
 
-### **Powered by the Bot Brain**
-See: [`prompts/bot-brain.md`](prompts/bot-brain.md)
+### **Powered by the ChatBot Brain** 🧠
+See: bot implementation for DeepSeek and other LLMs:** [`VR8Df_bot.md`](VR8Df_bot.md)
 
 Includes:
 - Framework definitions  
