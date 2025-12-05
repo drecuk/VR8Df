@@ -4,7 +4,7 @@ Human–AI Collaboration for VR Experience Design grounded in VR theories
 ================================================================================
 ### 📄 Dimensionality Framework (8Df) Paper:
 - Ch’ng E (2026) What’s beyond Presence? Dimensionality, Control and Information Spaces, Presence: Virtual and Augmented Reality 2026(37), MIT Press. Accepted for 2026, Issue 27.  
-  *[`VRDimensionalityFramework(8Df).pdf`](VRDimensionalityFramework(8Df).pdf)* *[arXiv to appear soon]*
+  *[`VRDimensionalityFramework(8Df).pdf`](VRDimensionalityFramework(8Df).pdf)* *[`arXiv`](https://arxiv.org/abs/2512.04398)*
 
 - 📊 LLM Comparison Study (ChatGPT / Gemini / DeepSeek):  
   *[Coming soon]*
@@ -183,7 +183,7 @@ Output includes:
 
 ### 📄 Dimensionality Framework (8Df) Paper:
 -  Ch’ng E (2026) What’s beyond Presence? Dimensionality, Control and Information Spaces, Presence: Virtual and Augmented Reality 2026(37), MIT Press. Accepted for 2026, Issue 27.  
-  *[`VRDimensionalityFramework(8Df).pdf`](VRDimensionalityFramework(8Df).pdf)* *[arXiv to appear soon]*
+  *[`VRDimensionalityFramework(8Df).pdf`](VRDimensionalityFramework(8Df).pdf)* *[`arXiv`](https://arxiv.org/abs/2512.04398)*
 
 - 📊 LLM Comparison Study (ChatGPT / Gemini / DeepSeek):  
   *[Coming soon]*
