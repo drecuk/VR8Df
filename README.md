@@ -7,7 +7,7 @@ Human–AI Collaboration for VR Experience Design grounded in VR theories
   *[`VRDimensionalityFramework(8Df).pdf`](VRDimensionalityFramework(8Df).pdf)* *[`arXiv`](https://arxiv.org/abs/2512.04398)*
 
 - 📊 LLM Comparison Study (ChatGPT / Gemini / DeepSeek):  
-  *[Coming soon]*
+  *[ResearchSquare](https://www.researchsquare.com/article/rs-8274845/v1)*
 
 #### In the Chatbot prompt, type 'start' to start using:
 - 🔗 **ChatGPT Live Demo:** *[[ChatGPT](https://chatgpt.com/g/g-68e37b8b9fc48191831d1b7259437899-vr-dimensionality-framework-8df)]*
@@ -188,4 +188,4 @@ Output includes:
   *[`VRDimensionalityFramework(8Df).pdf`](VRDimensionalityFramework(8Df).pdf)* *[`arXiv`](https://arxiv.org/abs/2512.04398)*
 
 - 📊 LLM Comparison Study (ChatGPT / Gemini / DeepSeek):  
-  *[Coming soon]*
+  *[ResearchSquare](https://www.researchsquare.com/article/rs-8274845/v1)*
