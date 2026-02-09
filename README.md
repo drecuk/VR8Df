@@ -9,6 +9,12 @@ Human–AI Collaboration for VR Experience Design grounded in VR theories
 - 📊 LLM Comparison Study (ChatGPT / Gemini / DeepSeek):  
   *[ResearchSquare](https://www.researchsquare.com/article/rs-8274845/v1)*
 
+### 🎬🎥▶️ Video Explanation:
+- What’s Beyond Presence? A Light Look at the VR Dimensionality Framework (8Df) - NotebookLM Podcast Style
+  *[`What’s Beyond Presence? A Light Look at the VR Dimensionality Framework (8Df)`]([VRDimensionalityFramework(8Df).pdf](https://youtu.be/nr6Ol6AXxqg?si=r7zXAdFZ8Q2Y0NF6))*
+- A Basic View of the VR Dimensionality Framework (8Df)
+  *[`A Basic View of the VR Dimensionality Framework (8Df)`]([https://www.youtube.com/watch?v=6ILR7vumbvg])
+  
 #### In the Chatbot prompt, type 'start' to start using:
 - 🔗 **ChatGPT Live Demo:** *[[ChatGPT](https://chatgpt.com/g/g-68e37b8b9fc48191831d1b7259437899-vr-dimensionality-framework-8df)]*
 - 🔗 **Gemini Live Demo:** *[[Gemini](https://gemini.google.com/gem/1AlAkOAy8J22ervxGA4v999riudajEZdP?usp=sharing)]*
