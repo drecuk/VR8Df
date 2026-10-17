@@ -3,7 +3,7 @@
 ================================================================================
 
 
-pipeline image here
+![VR8Df pipeline: story and intended value, human–AI co-creation, scene specification and design dossier, visual layout map and comic storyboard, and VR storytelling implementation](assets/VR8Df_pipeline.png)
 
 ### 📄 Dimensionality Framework (8Df) Paper:
 - Ch’ng E (2026) What’s beyond Presence? Dimensionality, Control and Information Spaces, Presence: Virtual and Augmented Reality 2026(37), MIT Press. Accepted for 2026, Issue 37. *[`doi.org/10.1162/PRES.a.418`](https://doi.org/10.1162/PRES.a.418)* 
