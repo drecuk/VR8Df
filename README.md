@@ -18,6 +18,8 @@ Human–AI Collaboration for VR Experience Design grounded in VR theories
 - 🔗 **Gemini Live Demo:** *[[Gemini](https://gemini.google.com/gem/1AlAkOAy8J22ervxGA4v999riudajEZdP?usp=sharing)]*
 - 🧠 **bot implementation for DeepSeek and other LLMs:** [soon]
 
+#### OpenAI Codex Plugin:
+- ** plugin here **
 ================================================================================
 
 
