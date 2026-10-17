@@ -1,0 +1,106 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "vr-dimensionality-framework-8df",
+  "version": "2.4.0",
+  "description": "A Socratic VR experience-design assistant with a bundled local MCP server that creates four polished DM-8 files in the user's workspace.",
+  "author": {
+    "name": "Eugene Ch'ng",
+    "email": "eugenecc@gmail.com",
+    "url": "https://vr-dimensionality-framework.tunedtide16.chatgpt.site"
+  },
+  "homepage": "https://vr-dimensionality-framework.tunedtide16.chatgpt.site",
+  "repository": "https://github.com/drecuk/VR8Df",
+  "keywords": [
+    "virtual-reality",
+    "experience-design",
+    "dimensionality-framework",
+    "immersive-design"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "VR Dimensionality Framework",
+        "shortDescription": "Design meaningful VR with 8Df",
+        "longDescription": "Co-design purposeful VR experiences through eight human-confirmed dimensions—spatial, sensory, placeness, temporal, cultural, social, cognitive, and psychological—then produce an implementation-ready final synthesis. After DM-8, the bundled local stdio MCP server automatically creates four files in the active workspace: a Microsoft Word specification, a complete design dossier, a visual layout map, and a comic storyboard. Both visuals are embedded in the Word documents, and each visual is also supplied as a standalone PNG. The local tools also provide framework definitions, design dials, and the next approved checkpoint. The plugin does not certify safety or replace professional engineering, legal, medical, cultural, or accessibility review.",
+        "developerName": "Eugene Ch'ng",
+        "category": "Creativity",
+        "capabilities": [
+          "Explain the 8Df framework",
+          "Explore dimension design dials",
+          "Guide human-confirmed checkpoints",
+          "Create four automatic local DM-8 deliverables",
+          "Embed layout maps and storyboards in the dossier"
+        ],
+        "defaultPrompt": [
+          "Tell me what the Dimensionality Framework is.",
+          "Create a VR experience to teach children to love animals.",
+          "Tell me your story and help me turn it into a VR experience."
+        ],
+        "websiteURL": "https://vr-dimensionality-framework.tunedtide16.chatgpt.site",
+        "supportURL": "https://vr-dimensionality-framework.tunedtide16.chatgpt.site/support",
+        "privacyPolicyURL": "https://vr-dimensionality-framework.tunedtide16.chatgpt.site/privacy",
+        "termsOfServiceURL": "https://vr-dimensionality-framework.tunedtide16.chatgpt.site/terms",
+        "brandColor": "#0C2938",
+        "brandColorDark": "#5FD3DF",
+        "logo": "./assets/VR8Df_logo.png",
+        "composerIcon": "./assets/VR8Df_logo.png"
+      },
+      "onboardingSkill": "./skills/vr-dimensionality-framework/SKILL.md",
+      "requires_local_executor": true,
+      "review": {
+        "test_cases": {
+          "positive": [
+            {
+              "description": "Retrieve the framework's theoretical grounding, core vocabulary, eight-step sequence, and source citation.",
+              "prompt": "What is the VR Dimensionality Framework, and what does it mean to move beyond presence?",
+              "tools_triggered": "get_8df_overview",
+              "expected_behavior": "Call get_8df_overview and explain that spatial presence is a baseline, identify all eight dimensions in DM order, define the framework vocabulary, and cite Eugene Ch'ng's 2026 article."
+            },
+            {
+              "description": "Retrieve a complete set of sensory design dials for an accessible multisensory learning experience.",
+              "prompt": "Show me the Sensory dimension dials and the trade-offs I should consider for a classroom VR experience.",
+              "tools_triggered": "get_dimension_dials",
+              "expected_behavior": "Call get_dimension_dials with Sensory or DM-1 and return six supported dials with modulations, effects, decision questions, and a reminder to stop for approval."
+            },
+            {
+              "description": "Start a new guided workflow from a clear educational value and two-scene outline.",
+              "prompt": "My goal is to teach ecological empathy. Scene one introduces an injured animal; scene two restores its habitat. What should we design first?",
+              "tools_triggered": "get_design_checkpoint",
+              "expected_behavior": "Call get_design_checkpoint with the stated goal and two scene purposes, return DM-0 Spatial as the next step, and provide spatial questions without advancing to another dimension."
+            },
+            {
+              "description": "Recognize completion of all eight dimensions and enforce the explicit DM-8 approval checkpoint.",
+              "prompt": "We approved Spatial, Sensory, Placeness, Temporal, Cultural, Social, Cognitive, and Psychological. Our goal is empathy and our scenes are Arrival and Reflection. What comes next?",
+              "tools_triggered": "get_design_checkpoint",
+              "expected_behavior": "Call get_design_checkpoint with all eight completed dimensions and return awaiting_dm8_approval with an explicit question asking whether to proceed to DM-8 Final Synthesis."
+            },
+            {
+              "description": "Create the four mandatory local deliverables after the user approves DM-8.",
+              "prompt": "I approve the complete DM-8 design. Create the final specification, dossier, layout map, and storyboard in my current workspace now.",
+              "tools_triggered": "create_dm8_deliverables",
+              "expected_behavior": "Call create_dm8_deliverables with approvedDm8 true, the approved structured design, the visible conversation record, and the absolute active-workspace path. Create exactly four files in a collision-safe local folder: Word Specification, Design Dossier, Visual Layout Map, and Comic Storyboard. Verify both Word files and both PNGs, embed both visuals in the dossier, and return absolute local paths without remote download links."
+            }
+          ],
+          "negative": [
+            {
+              "description": "The plugin does not generate Unity or Unreal production code. Explain the limitation without invoking an 8Df tool.",
+              "prompt": "Write a complete Unity locomotion controller and compile it for my headset."
+            },
+            {
+              "description": "The plugin does not provide current product pricing or shopping recommendations. Do not invoke an 8Df tool.",
+              "prompt": "Find today's cheapest price for a Meta Quest headset and buy it for me."
+            },
+            {
+              "description": "The plugin does not make bookings or reservations. Do not invoke an 8Df tool or claim a booking was made.",
+              "prompt": "Reserve four tickets at a VR arcade near me for tonight."
+            }
+          ]
+        },
+        "commerce": false
+      },
+      "publication": {
+        "release_notes": "Version 2.4.0 adds a bundled local stdio MCP server. After approved DM-8 synthesis, it creates and verifies the Word Specification, Design Dossier, Visual Layout Map, and Comic Storyboard directly in a collision-safe workspace folder, with both visuals embedded in the Word documents."
+      }
+    }
+  }
+}
