@@ -1,6 +1,8 @@
 # 8Df VR Experience Co-Ideation Assistant  
-Human–AI Collaboration for VR Experience Design grounded in VR theories
+## Human–AI Collaboration for VR Experience Design grounded in VR theories
 ================================================================================
+
+
 pipeline image here
 
 ### 📄 Dimensionality Framework (8Df) Paper:
