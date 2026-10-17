@@ -1,7 +1,8 @@
 {
   "name": "vr-8df-local-mcp",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "private": true,
+  "license": "Apache-2.0",
   "type": "module",
   "main": "dist/index.cjs",
   "scripts": {

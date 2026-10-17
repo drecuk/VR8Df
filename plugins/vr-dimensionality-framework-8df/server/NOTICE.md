@@ -1,10 +1,11 @@
 # Bundled server notices
 
-The compiled local MCP server bundles these runtime packages:
+Copyright 2026 Eugene Ch'ng.
 
-- `@modelcontextprotocol/sdk` under the MIT License
-- `docx` under the MIT License
-- `pngjs` under the MIT License
-- `zod` under the MIT License
+The original software implementation is licensed under Apache-2.0, subject to
+the protected-content exclusions in `../CONTENT_LICENSE.md`.
 
-The source package names and pinned versions are recorded in `package.json`.
+The compiled local MCP server includes third-party software under MIT,
+BSD-3-Clause, and ISC licenses. Package versions, copyright notices, and full
+license terms are recorded in `../THIRD_PARTY_NOTICES.md`. Legal comments
+preserved in `dist/index.cjs` remain part of the distributed bundle.

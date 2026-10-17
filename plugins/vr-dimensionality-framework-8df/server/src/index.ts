@@ -22,7 +22,7 @@ import {
   type StoryboardPanel,
 } from "./visuals.js";
 
-const VERSION = "2.4.0";
+const VERSION = "2.4.1";
 const readAnnotations = {
   readOnlyHint: true,
   openWorldHint: false,

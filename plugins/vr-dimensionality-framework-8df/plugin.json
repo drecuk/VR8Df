@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "vr-dimensionality-framework-8df",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "description": "A Socratic VR experience-design assistant with a bundled local MCP server that creates four polished DM-8 files in the user's workspace.",
   "author": {
     "name": "Eugene Ch'ng",
@@ -10,6 +10,7 @@
   },
   "homepage": "https://vr-dimensionality-framework.tunedtide16.chatgpt.site",
   "repository": "https://github.com/drecuk/VR8Df",
+  "license": "Apache-2.0",
   "keywords": [
     "virtual-reality",
     "experience-design",
@@ -99,7 +100,7 @@
         "commerce": false
       },
       "publication": {
-        "release_notes": "Version 2.4.0 adds a bundled local stdio MCP server. After approved DM-8 synthesis, it creates and verifies the Word Specification, Design Dossier, Visual Layout Map, and Comic Storyboard directly in a collision-safe workspace folder, with both visuals embedded in the Word documents."
+        "release_notes": "Version 2.4.1 adds an Apache-2.0 license for the original software implementation, expressly reserves the 8Df framework content and branding, and provides complete notices for third-party software included in the compiled MCP server. Runtime behavior is unchanged from version 2.4.0."
       }
     }
   }

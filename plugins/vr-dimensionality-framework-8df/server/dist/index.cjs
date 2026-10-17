@@ -62435,7 +62435,7 @@ function renderStoryboard(projectTitle, panels, startNumber = 0) {
 }
 
 // src/index.ts
-var VERSION = "2.4.0";
+var VERSION = "2.4.1";
 var readAnnotations = {
   readOnlyHint: true,
   openWorldHint: false,
