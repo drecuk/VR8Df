@@ -39,7 +39,7 @@ pipeline image here
    ```sh
    codex --version
    ```
-4. In your Windows, MacOS, UBUNTU Console/Terminal, enter the command to add the repository as a Codex plugin marketplace:
+4. In your Windows, MacOS, UBUNTU console/terminal, enter the command to add the repository as a Codex plugin marketplace:
    ```sh
    codex plugin marketplace add drecuk/VR8Df
    ```
