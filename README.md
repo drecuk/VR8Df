@@ -1,4 +1,4 @@
-# 8Df VR Experience Co-Ideation Assistant  
+# VR 8Df Co-Ideation Assistant for Immersive Storytelling
 ## Human–AI Collaboration for VR Experience Design grounded in VR theories
 
 
