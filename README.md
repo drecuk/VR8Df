@@ -48,6 +48,7 @@ pipeline image here
 5. Restart the ChatGPT desktop app.
 6. Open the **Plugins Directory**, select the **VR Dimensionality Framework** marketplace, open **VR Dimensionality Framework**, and select **Install**.
 7. Start a new conversation and ask: `Tell me what the Dimensionality Framework is.`
+8. Start the framework with your story: `I want to tell the story of a girl living in a fishing village in Quanzhou in the 19th century. Her village is nestled between the rugged coastal hills and the bustling maritime trade routes of Quanzhou, where generations of fishermen have depended on the sea for their survival. One morning, after a violent typhoon, she discovers a mysterious wooden chest washed ashore, containing an ancient compass, a faded map, and a letter written in a language she cannot understand. Determined to uncover its secrets, she embarks on a journey that will reveal her family's forgotten connection to the maritime Silk Road.`
 
 To refresh the repository package after a new release:
 ```sh
