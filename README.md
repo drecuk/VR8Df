@@ -7,7 +7,7 @@ pipeline image here
 - Ch’ng E (2026) What’s beyond Presence? Dimensionality, Control and Information Spaces, Presence: Virtual and Augmented Reality 2026(37), MIT Press. Accepted for 2026, Issue 37. *[`doi.org/10.1162/PRES.a.418`](https://doi.org/10.1162/PRES.a.418)* 
 
 - 📊 LLM Comparison Study (ChatGPT / Gemini / DeepSeek):
-- Ch'ng E (2026) Human-AI Co-Ideation in VR Experience Design: Using the Dimensionality Framework (8Df) to Structure LLM-Guided Design, Nature Humanities and Social Sciences Communications.  
+-- Ch'ng E (2026) Human-AI Co-Ideation in VR Experience Design: Using the Dimensionality Framework (8Df) to Structure LLM-Guided Design, Nature Humanities and Social Sciences Communications.  
   *[https://www.nature.com/articles/s41599-026-07985-4](https://www.nature.com/articles/s41599-026-07985-4)*
 
 ### 🎬🎥▶️ Video Explanation:
