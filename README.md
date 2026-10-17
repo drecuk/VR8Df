@@ -1,6 +1,6 @@
 # 8Df VR Experience Co-Ideation Assistant  
 ## Human–AI Collaboration for VR Experience Design grounded in VR theories
-================================================================================
+
 
 
 ![VR8Df pipeline: story and intended value, human–AI co-creation, scene specification and design dossier, visual layout map and comic storyboard, and VR storytelling implementation](assets/VR8Df_pipeline.png)
