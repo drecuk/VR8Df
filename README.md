@@ -21,7 +21,9 @@ pipeline image here
 - 🔗 **Gemini Live Demo:** *[[Gemini](https://gemini.google.com/gem/1AlAkOAy8J22ervxGA4v999riudajEZdP?usp=sharing)]*
 - 🧠 **bot implementation for DeepSeek and other LLMs:** [soon]
 
-#### OpenAI Codex Plugin:
+================================================================================
+
+## OpenAI Codex Plugin:
 - 📦 **[Download VR Dimensionality Framework (8Df) Plugin v2.4.0](https://github.com/drecuk/VR8Df/releases/download/v2.4.0/vr-dimensionality-framework-8df-2.4.0.zip)** ([release notes](https://github.com/drecuk/VR8Df/releases/tag/v2.4.0))
 - Guides users through the human-confirmed DM-0 to DM-8 design workflow using the eight-dimensional framework.
 - Includes one bundled local MCP server with reference, design-dial, checkpoint, and document-generation tools.
