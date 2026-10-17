@@ -31,13 +31,21 @@ pipeline image here
 
 ##### Install from this GitHub repository
 1. Install [Node.js 20 or later](https://nodejs.org/) if it is not already available.
-2. Add this repository as a Codex plugin marketplace:
+2. Check Node version in your console/terminal with command, making sure version >20, e.g., v24.22.0.
+   ```sh
+   node --version
+   ```
+3. Make sure Codex is available in your Windows, MacOS and Ubuntu console/terminal with the command:
+   ```sh
+   codex --version
+   ```
+4. In your Windows, MacOS, UBUNTU Console/Terminal, enter the command to add the repository as a Codex plugin marketplace:
    ```sh
    codex plugin marketplace add drecuk/VR8Df
    ```
-3. Restart the ChatGPT desktop app.
-4. Open the **Plugins Directory**, select the **VR Dimensionality Framework** marketplace, open **VR Dimensionality Framework**, and select **Install**.
-5. Start a new conversation and ask: `Tell me what the Dimensionality Framework is.`
+5. Restart the ChatGPT desktop app.
+6. Open the **Plugins Directory**, select the **VR Dimensionality Framework** marketplace, open **VR Dimensionality Framework**, and select **Install**.
+7. Start a new conversation and ask: `Tell me what the Dimensionality Framework is.`
 
 To refresh the repository package after a new release:
 ```sh
