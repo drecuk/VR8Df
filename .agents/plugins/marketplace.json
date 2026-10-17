@@ -1,0 +1,20 @@
+{
+  "name": "vr8df",
+  "interface": {
+    "displayName": "VR Dimensionality Framework"
+  },
+  "plugins": [
+    {
+      "name": "vr-dimensionality-framework-8df",
+      "source": {
+        "source": "local",
+        "path": "./plugins/vr-dimensionality-framework-8df"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}

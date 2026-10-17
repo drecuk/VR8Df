@@ -19,7 +19,29 @@ Human–AI Collaboration for VR Experience Design grounded in VR theories
 - 🧠 **bot implementation for DeepSeek and other LLMs:** [soon]
 
 #### OpenAI Codex Plugin:
-- ** plugin here **
+- 📦 **[Download VR Dimensionality Framework (8Df) Plugin v2.4.0](https://github.com/drecuk/VR8Df/releases/download/v2.4.0/vr-dimensionality-framework-8df-2.4.0.zip)** ([release notes](https://github.com/drecuk/VR8Df/releases/tag/v2.4.0))
+- Guides users through the human-confirmed DM-0 to DM-8 design workflow using the eight-dimensional framework.
+- Includes one bundled local MCP server with reference, design-dial, checkpoint, and document-generation tools.
+- After approved DM-8 synthesis, it automatically creates four local files: a **Word Specification**, **Design Dossier**, **Visual Layout Map**, and **Comic Storyboard**. The visuals are also embedded in the Word documents.
+- **Requirements:** ChatGPT desktop with Codex/local MCP execution support and Node.js 20 or later.
+- **SHA-256:** `2169778d76b33ef042dfa8f571933d45f2969f6696681336f983d0aca09a85f6`
+
+##### Install from this GitHub repository
+1. Install [Node.js 20 or later](https://nodejs.org/) if it is not already available.
+2. Add this repository as a Codex plugin marketplace:
+   ```sh
+   codex plugin marketplace add drecuk/VR8Df
+   ```
+3. Restart the ChatGPT desktop app.
+4. Open the **Plugins Directory**, select the **VR Dimensionality Framework** marketplace, open **VR Dimensionality Framework**, and select **Install**.
+5. Start a new conversation and ask: `Tell me what the Dimensionality Framework is.`
+
+To refresh the repository package after a new release:
+```sh
+codex plugin marketplace upgrade vr8df
+```
+
+The ZIP link above is retained for release downloads and package submission. Repository users should use the marketplace installation steps.
 ================================================================================
 
 
