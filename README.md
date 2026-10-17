@@ -33,23 +33,32 @@
 - **SHA-256:** `246d0b4476d7c7b59078abdf005b125d92d542d656b9863be2903e0cc8b81499`
 
 ##### Install from this GitHub repository
-1. Install [Node.js 20 or later](https://nodejs.org/) if it is not already available.
-2. Check Node version in your console/terminal with command, making sure version >20, e.g., v24.22.0.
+
+> **Important:** Node.js, Codex CLI, and the ChatGPT desktop app are separate installations. Installing Node.js does **not** automatically install Codex.
+
+1. Install or open the ChatGPT desktop app. It is required separately from Node.js and Codex CLI.
+2. Install [Node.js 20 or later](https://nodejs.org/) if it is not already available. Node.js supplies the runtime and the `npm` package manager used to install Codex CLI.
+3. Check that Node.js and npm are available in your console/terminal:
    ```sh
    node --version
+   npm --version
    ```
-3. Make sure Codex is available in your Windows, MacOS and Ubuntu console/terminal with the command:
+4. Install Codex CLI separately:
+   ```sh
+   npm install -g @openai/codex@latest
+   ```
+5. Check that Codex is available:
    ```sh
    codex --version
    ```
-4. In your Windows, MacOS, UBUNTU console/terminal, enter the command to add the repository as a Codex plugin marketplace:
+6. Add this repository as a Codex plugin marketplace:
    ```sh
    codex plugin marketplace add drecuk/VR8Df
    ```
-5. Restart the ChatGPT desktop app.
-6. Open the **Plugins Directory**, select the **VR Dimensionality Framework** marketplace, open **VR Dimensionality Framework**, and select **Install**.
-7. Start a new conversation and ask: `Tell me what the Dimensionality Framework is.`
-8. Start the framework with your story: `I want to tell the story of a girl living in a fishing village in Quanzhou in the 19th century. Her village is nestled between the rugged coastal hills and the bustling maritime trade routes of Quanzhou, where generations of fishermen have depended on the sea for their survival. One morning, after a violent typhoon, she discovers a mysterious wooden chest washed ashore, containing an ancient compass, a faded map, and a letter written in a language she cannot understand. Determined to uncover its secrets, she embarks on a journey that will reveal her family's forgotten connection to the maritime Silk Road.`
+7. Restart the ChatGPT desktop app.
+8. Open the **Plugins Directory**, select the **VR Dimensionality Framework** marketplace, open **VR Dimensionality Framework**, and select **Install**.
+9. Start a new conversation and ask: `Tell me what the Dimensionality Framework is.`
+10. Start the framework with your story: `I want to tell the story of a girl living in a fishing village in Quanzhou in the 19th century. Her village is nestled between the rugged coastal hills and the bustling maritime trade routes of Quanzhou, where generations of fishermen have depended on the sea for their survival. One morning, after a violent typhoon, she discovers a mysterious wooden chest washed ashore, containing an ancient compass, a faded map, and a letter written in a language she cannot understand. Determined to uncover its secrets, she embarks on a journey that will reveal her family's forgotten connection to the maritime Silk Road.`
 
 To refresh the repository package after a new release:
 ```sh
